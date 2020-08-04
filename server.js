@@ -26,7 +26,7 @@ app.get("/api/config", (req, res) => {
 
 // db connection
 mongoose
-  .connect(process.env.MONGODB_URI || "mongodb://localhost/mern-starter", {
+  .connect(process.env.MONGODB_URI || "mongodb://localhost/react-portfolio", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
