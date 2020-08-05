@@ -45,6 +45,8 @@ function App() {
       </div>
       {/* Contact Section */}
       <h1>Github<i class="fa fa-github" aria-hidden="true"></i></h1>
+      <h1>Email<i class="fa fa-envelope" aria-hidden="true"></i></h1>
+      <h1>LinkedIn<i class="fa fa-linkedin" aria-hidden="true"></i></h1>
     </>
   );
 }
