@@ -12,9 +12,9 @@ function App() {
       {/* Main Section */}
       <HomePage />
       {/* Projects Section */}
-      <ProjectSection />
+      {/* <ProjectSection /> */}
       {/* Contact Section */}
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </>
   );
