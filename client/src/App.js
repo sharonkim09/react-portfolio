@@ -3,7 +3,32 @@ import "./App.css";
 function App() {
   return (
     <>
-    {/* Main Section */}
+      <div className="navbar-fixed">
+        <nav className="black">
+          <div className="container">
+            <div className="nav-wrapper">
+              <a href="" className="brand-logo">
+                My Portfolio
+              </a>
+              <ul className="right hide-on-med-and-down" id="navList">
+                <li>
+                  <a href="">Home</a>
+                </li>
+                <li>
+                  <a href="">About Me</a>
+                </li>
+                <li>
+                  <a href="">Projects</a>
+                </li>
+                <li>
+                  <a href="">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      {/* Main Section */}
       <div className="row">
         <div className="col s12 center-align">
           <img className="circle" alt="my pic" src="../profile.png" />
@@ -44,9 +69,15 @@ function App() {
         </div>
       </div>
       {/* Contact Section */}
-      <h1>Github<i class="fa fa-github" aria-hidden="true"></i></h1>
-      <h1>Email<i class="fa fa-envelope" aria-hidden="true"></i></h1>
-      <h1>LinkedIn<i class="fa fa-linkedin" aria-hidden="true"></i></h1>
+      <h1>
+        Github<i class="fa fa-github" aria-hidden="true"></i>
+      </h1>
+      <h1>
+        Email<i class="fa fa-envelope" aria-hidden="true"></i>
+      </h1>
+      <h1>
+        LinkedIn<i class="fa fa-linkedin" aria-hidden="true"></i>
+      </h1>
     </>
   );
 }
