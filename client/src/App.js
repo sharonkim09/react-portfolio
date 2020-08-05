@@ -2,19 +2,13 @@ import React from "react";
 import "./App.css";
 import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
-
+import HomePage from "./pages/HomePage"
 function App() {
   return (
     <>
 <Header/>
       {/* Main Section */}
-      <div className="row">
-        <div className="col s12 center-align">
-          <img className="circle" alt="my pic" src="../profile.png" />
-          <h1>Welcome to my portfolio page!</h1>
-          <p>Full-Stack Web Developer with skills in MERN and JS. </p>
-        </div>
-      </div>
+     <HomePage/>
       {/* Projects Section */}
       <div className="row center-align">
         <h2>Projects</h2>
