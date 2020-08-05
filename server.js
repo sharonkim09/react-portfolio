@@ -3,10 +3,14 @@ const express = require("express");
 const mongoose = require("mongoose");
 // instance of express
 const app = express();
+const path = require("path");
+
 // server port
 const PORT = process.env.PORT || 3001;
 
-
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 
 // middleware
 app.use(express.urlencoded({ extended: true }));
@@ -22,7 +26,9 @@ app.get("/api/config", (req, res) => {
   });
 });
 
-
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
 
 // db connection
 mongoose
