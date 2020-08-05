@@ -3,6 +3,8 @@ import "./App.css";
 import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
 import HomePage from "./pages/HomePage"
+import ProjectSection from "./components/ProjectSection/ProjectSection"
+
 function App() {
   return (
     <>
@@ -10,37 +12,7 @@ function App() {
       {/* Main Section */}
      <HomePage/>
       {/* Projects Section */}
-      <div className="row center-align">
-        <h2>Projects</h2>
-        <div className="col s6">
-          <img
-            alt="burger"
-            className="responsive-img"
-            src="../spellbindr-screenshot.png"
-          />
-        </div>
-        <div className="col s6">
-          <img
-            alt="burger"
-            className="responsive-img"
-            src="../spellbindr-screenshot.png"
-          />
-        </div>
-        <div className="col s6">
-          <img
-            alt="burger"
-            className="responsive-img"
-            src="../spellbindr-screenshot.png"
-          />
-        </div>
-        <div className="col s6">
-          <img
-            alt="burger"
-            className="responsive-img"
-            src="../spellbindr-screenshot.png"
-          />
-        </div>
-      </div>
+<ProjectSection />
       {/* Contact Section */}
       <h1>
         Github<i className="fa fa-github" aria-hidden="true"></i>
