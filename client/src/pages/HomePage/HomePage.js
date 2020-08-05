@@ -1,8 +1,8 @@
 import React from 'react';
-
+import "./style.css"
 const HomePage = () => {
     return (
-        <div className="row">
+        <div className="row" id="home-elements">
         <div className="col s12 center-align">
           <img className="circle" alt="my pic" src="../profile.png" />
           <h1>Welcome to my portfolio page!</h1>
