@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header/Header"
+import Footer from "./components/Footer/Footer"
+
 function App() {
   return (
     <>
@@ -55,6 +57,7 @@ function App() {
       <h1>
         LinkedIn<i className="fa fa-linkedin" aria-hidden="true"></i>
       </h1>
+      <Footer/>
     </>
   );
 }
