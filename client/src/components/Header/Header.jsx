@@ -7,16 +7,16 @@ const Header = () => {
       <nav className="black">
         <div className="container">
           <div className="nav-wrapper">
-            <a href="/" className="brand-logo">
-              My Portfolio
-            </a>
-            <ul className="right hide-on-med-and-down" id="navList">
+            <ul className="d-flex justify-content-center col-6" id="navList">
               <li>
                 <Link to="/">Home</Link>
               </li>
               <li>
                 <Link to="/projects">Projects</Link>
               </li>
+                   <a href="/" className="right brand-logo">
+              My Portfolio
+            </a>
             </ul>
           </div>
         </div>
