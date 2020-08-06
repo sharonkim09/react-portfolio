@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
             <div className="col s3 l3">
               <p>
-              <a target="_blank" href="https://drive.google.com/file/d/13QHCUgUyTN4OYuOiC9SV-DBYF3JSm6yh/view?usp=sharing"><i className="fa fa-address-card" aria-hidden="true"></i></a>
+              <a target="_blank" href="https://drive.google.com/file/d/1L3pFTOkrX9oMZJQtplo4zwmJnHOMCgnL/view?usp=sharing"><i className="fa fa-address-card" aria-hidden="true"></i></a>
               </p>
             </div>
           </div>
