@@ -14,10 +14,10 @@ a {
   transition: 1s ease-out;
 }
 
-i {
+.iconsSocial {
   transition: all 0.2s ease-in-out;
 }
 
-i:hover {
+.iconsSocial:hover {
   transform: scale(3.0);
 }

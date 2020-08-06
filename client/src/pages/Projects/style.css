@@ -1,0 +1,20 @@
+a {
+  transition: all 0.2s ease-in-out;
+}
+#titleOfCards{
+    background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+font-weight:bold;
+    padding:5px;
+    margin-bottom:8px;
+    color:black;
+}
+a:hover {
+  transform: scale(1.5);
+}
+
+#projectContainer{
+    margin-top:50px;
+    margin-bottom:50px;
+}
