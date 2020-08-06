@@ -23,8 +23,8 @@ const Footer = () => {
                 {/* <!-- Modal Structure --> */}
                 <div id="terms" className="modal bottom-sheet">
                   <div className="modal-content">
-                    <p>sharonkim1709@gmail.com</p>
-                    <p>404-998-6187</p>
+                    <p>Email: sharonkim1709@gmail.com</p>
+                    <p>By phone: 404-998-6187</p>
                   </div>
                  
                     <a
