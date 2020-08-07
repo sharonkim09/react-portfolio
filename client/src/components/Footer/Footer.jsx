@@ -15,7 +15,7 @@ const Footer = () => {
               {/* <!-- Modal Trigger --> */}
               <a className="modal-trigger" href="#terms">
                 <i
-                  className="fa fa-envelope iconsSocial"
+                  className="fa fa-address-card-o iconsSocial"
                   aria-hidden="true"
                 ></i>
               </a>
@@ -50,7 +50,7 @@ const Footer = () => {
                 href="https://drive.google.com/file/d/1L3pFTOkrX9oMZJQtplo4zwmJnHOMCgnL/view?usp=sharing"
               >
                 <i
-                  className="fa fa-address-card iconsSocial"
+                  className="fa fa-file-pdf-o iconsSocial"
                   aria-hidden="true"
                 ></i>
               </a>
