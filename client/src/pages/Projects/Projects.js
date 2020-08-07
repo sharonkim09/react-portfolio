@@ -4,7 +4,7 @@ const ProjectSection = () => {
   return (
     <div className="container" id="projectContainer">
       <div className="row">
-        <div className="col s12 m6">
+        <div className="col s12 m6" id="imgCard">
           <div className="card">
             <div className="card-image">
               <img
@@ -37,7 +37,7 @@ const ProjectSection = () => {
             </div>
           </div>
         </div>
-        <div className="col s12 m6">
+        <div className="col s12 m6" id="imgCard">
           <div className="card">
             <div className="card-image">
               <img alt="password generated" src="../password-generator.png" />
@@ -69,7 +69,7 @@ const ProjectSection = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col s12 m6">
+        <div className="col s12 m6" id="imgCard">
           <div className="card">
             <div className="card-image">
               <img alt="burger input" src="../burger-screenshot.png" />
@@ -100,7 +100,7 @@ const ProjectSection = () => {
             </div>
           </div>
         </div>
-        <div className="col s12 m6">
+        <div className="col s12 m6" id="imgCard">
           <div className="card">
             <div className="card-image">
               <img alt="signup/login" src="../donendusted.png" />
@@ -134,7 +134,7 @@ const ProjectSection = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col s12 m6">
+        <div className="col s12 m6" id="imgCard">
           <div className="card">
             <div className="card-image">
               <img alt="notetaker app" src="../note-screenshot.png" />
@@ -164,7 +164,7 @@ const ProjectSection = () => {
             </div>
           </div>
         </div>
-        <div className="col s12 m6">
+        <div className="col s12 m6" id="imgCard">
           <div className="card">
             <div className="card-image">
               <img
