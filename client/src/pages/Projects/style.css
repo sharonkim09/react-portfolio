@@ -18,3 +18,8 @@ a:hover {
     margin-top:50px;
     margin-bottom:50px;
 }
+
+#imgCard:hover{
+    background-color: rgb(203, 119, 175);
+    border: 1px solid rgb(21, 3, 3);
+}

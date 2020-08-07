@@ -14,9 +14,9 @@ const Header = () => {
               <li>
                 <Link to="/projects">Projects</Link>
               </li>
-                   <a href="/" className="right brand-logo">
+                   <Link to="/" className="right brand-logo">
               My Portfolio
-            </a>
+            </Link>
             </ul>
           </div>
         </div>
