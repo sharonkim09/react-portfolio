@@ -4,16 +4,11 @@
 .modal {
   background-color: #c4bbc9;
 }
-a {
+a{
   color: inherit;
   text-decoration: inherit;
   cursor: inherit;
 }
-.rotate .fa.fa-folder-open:hover {
-  font-size: 6em;
-  transition: 1s ease-out;
-}
-
 .iconsSocial {
   transition: all 0.2s ease-in-out;
 }
