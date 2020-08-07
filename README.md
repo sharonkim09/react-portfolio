@@ -22,9 +22,9 @@ Now that you've worked with React and have multiple projects to share, you'll be
 
 [Link to Deployed Website](https://arcane-river-76046.herokuapp.com/)
 
-## Credits
+![Screenshot of portfolio](./client/public/react-portfolio.png)
 
-API used: Random User Generator https://randomuser.me/
+## Credits
 
 The instructions were provided to me by GT Full Stack Coding Program.
 
