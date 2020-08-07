@@ -1,15 +1,15 @@
-#home-elements{
-    margin-top:20px;
+#home-elements {
+  margin-top: 20px;
 }
-img{
-    border-radius:50%; 
-    -webkit-transition: -webkit-transform .8s ease-in-out; 
-    -ms-transition: -ms-transform .8s ease-in-out; 
-    transition: transform .8s ease-in-out;
-    display: inline;
+#portPic {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  -ms-transition: -ms-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+  display: inline;
 }
-img:hover{
-transform:rotate(360deg); 
-  -ms-transform:rotate(360deg); 
-  -webkit-transform:rotate(360deg); 
+#portPic:hover {
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
 }
