@@ -15,7 +15,7 @@ const Header = () => {
                 <Link to="/projects">Projects</Link>
               </li>
                    <Link to="/" className="right brand-logo">
-              My Portfolio
+              Sharon Kim
             </Link>
             </ul>
           </div>
