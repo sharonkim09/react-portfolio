@@ -7,7 +7,7 @@ const Header = () => {
       <nav className="black">
         <div className="container">
           <div className="nav-wrapper">
-            <ul className="d-flex justify-content-center col-6" id="navList">
+            <ul className="d-flex justify-content-center col-6">
               <li>
                 <Link to="/">Home</Link>
               </li>
