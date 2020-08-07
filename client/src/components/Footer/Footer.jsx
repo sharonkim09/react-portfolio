@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="col s3 l3">
               <p>
                 <a target="_blank" href="https://github.com/sharonkim09">
-                  <i className="fa fa-github" aria-hidden="true"></i>
+                  <i className="fa fa-github iconsSocial" aria-hidden="true"></i>
                 </a>
               </p>
             </div>
@@ -17,7 +17,7 @@ const Footer = () => {
               <p>
                 {/* <!-- Modal Trigger --> */}
                 <a className="modal-trigger" href="#terms">
-                  <i className="fa fa-envelope" aria-hidden="true"></i>
+                  <i className="fa fa-envelope iconsSocial" aria-hidden="true"></i>
                 </a>
 
                 {/* <!-- Modal Structure --> */}
@@ -43,7 +43,7 @@ const Footer = () => {
                   target="_blank"
                   href="https://www.linkedin.com/in/sharon-kim-7a2766196/"
                 >
-                  <i className="fa fa-linkedin" aria-hidden="true"></i>
+                  <i className="fa fa-linkedin iconsSocial" aria-hidden="true"></i>
                 </a>
               </p>
             </div>
@@ -53,7 +53,7 @@ const Footer = () => {
                   target="_blank"
                   href="https://drive.google.com/file/d/1L3pFTOkrX9oMZJQtplo4zwmJnHOMCgnL/view?usp=sharing"
                 >
-                  <i className="fa fa-address-card" aria-hidden="true"></i>
+                  <i className="fa fa-address-card iconsSocial" aria-hidden="true"></i>
                 </a>
               </p>
             </div>
