@@ -189,9 +189,42 @@ const ProjectSection = () => {
             </div>
             <div className="card-content">
               <p>
-                This application gives user a random table of employees with their
-                picture, name, phone number, email, and date of birth. Users are able to look up employees or they can sort them alphabetically. This application uses
-                Random User Generator API.
+                This application gives user a random table of employees with
+                their picture, name, phone number, email, and date of birth.
+                Users are able to look up employees or they can sort them
+                alphabetically. This application uses Random User Generator API.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col s12 m6" id="imgCard">
+          <div className="card">
+            <div className="card-image">
+              <img alt="notetaker app" src="../linguick.png" />
+              <span className="card-title" id="titleOfCards">
+                Note Taker
+              </span>
+              <a
+                href="https://github.com/sharonkim09/Linguick"
+                className="btn-floating halfway-fab waves-effect waves-light red"
+              >
+                <i className="fa fa-github"></i>
+              </a>
+              <a
+                href="https://linguick.herokuapp.com/"
+                className="btn-floating left halfway-fab waves-effect waves-light red"
+              >
+                <i className="fa fa-window-maximize"></i>
+              </a>
+            </div>
+            <div className="card-content">
+              <p>
+                This application was a group project using all MERN and CRUD to
+                implement a learning app to help users understand and learn the
+                Korean alphabet. This app grinds the alphabet into the user by
+                adding a form of competition.
               </p>
             </div>
           </div>
