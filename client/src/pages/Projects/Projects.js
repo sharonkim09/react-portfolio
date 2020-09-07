@@ -45,13 +45,13 @@ const ProjectSection = () => {
                 Password Generator
               </span>
               <a
-                href="https://sharonkim09.github.io/gt-hw-js-password-generator"
+                href="https://github.com/sharonkim09/gt-hw-js-password-generator"
                 className="btn-floating halfway-fab waves-effect waves-light red"
               >
                 <i className="fa fa-github"></i>
               </a>
               <a
-                href="https://github.com/sharonkim09/gt-hw-js-password-generator"
+                href="https://sharonkim09.github.io/gt-hw-js-password-generator"
                 className="btn-floating left halfway-fab waves-effect waves-light red"
               >
                 <i className="fa fa-window-maximize"></i>
