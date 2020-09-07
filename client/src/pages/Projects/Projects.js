@@ -15,13 +15,13 @@ const ProjectSection = () => {
                 Spellbindr
               </span>
               <a
-                href="https://arhamilton92.github.io/spellbindr/"
+                href="https://github.com/arhamilton92/spellbindr"
                 className="btn-floating halfway-fab waves-effect waves-light red"
               >
                 <i className="fa fa-github"></i>
               </a>
               <a
-                href="https://github.com/arhamilton92/spellbindr"
+                href="https://arhamilton92.github.io/spellbindr/"
                 className="btn-floating left halfway-fab waves-effect waves-light red"
               >
                 <i className="fa fa-window-maximize"></i>
